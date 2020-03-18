@@ -26,10 +26,6 @@ class School
     # @roster.sort_by do |grade, name|
     #   [grade, name.sort!]
     # end.to_h
-
-    @roster.values.sort_by do |a|
-      a
-    end
   end
 
 end
