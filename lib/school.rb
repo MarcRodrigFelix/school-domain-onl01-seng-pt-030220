@@ -16,12 +16,6 @@ class School
     #   @roster[grade] = []
     #   @roster[grade] << student_name
     # end
-
-    unless @roster.keys.include?(grade)
-      @roster[grade] = []
-      @roster[grade] << student_name
-    end
-    @roster[grade] << student_name
   end
 
   def grade(grade)
