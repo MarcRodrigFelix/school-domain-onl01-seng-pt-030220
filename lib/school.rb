@@ -30,4 +30,3 @@ class School
 
 end
 
-# roster should be empty hash,
